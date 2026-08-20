@@ -91,8 +91,44 @@ The target distribution is moderately imbalanced, with approximately **26.54% of
 The project follows a structured end-to-end analytics and machine learning workflow:
 
 ```text
+Business Problem
+        │
+        ▼
+Data Collection
+        │
+        ▼
+Data Cleaning & Preparation
+        │
+        ▼
+Exploratory Data Analysis
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Train/Test Split
+        │
+        ▼
+Model Training
+        │
+        ▼
+Model Evaluation
+        │
+        ▼
+Cross-Validation & Hyperparameter Tuning
+        │
+        ▼
+Classification Threshold Optimization
+        │
+        ▼
+Model Interpretation
+        │
+        ▼
+Customer Churn Risk Segmentation
+        │
+        ▼
+Business Insights & Retention Recommendations
 
-```
 ### Modeling Approach
 
 Categorical variables were transformed using **One-Hot Encoding**, while numerical variables were prepared through the preprocessing pipeline.
