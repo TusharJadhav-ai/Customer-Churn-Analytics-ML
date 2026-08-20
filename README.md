@@ -91,6 +91,23 @@ The target distribution is moderately imbalanced, with approximately **26.54% of
 The project follows a structured end-to-end analytics and machine learning workflow:
 
 ```text
+
+```
+### Modeling Approach
+
+Categorical variables were transformed using **One-Hot Encoding**, while numerical variables were prepared through the preprocessing pipeline.
+
+The dataset was split into training and held-out test sets using **stratification** to preserve the original churn distribution.
+
+Four classification algorithms were evaluated:
+
+1. Logistic Regression
+2. Decision Tree
+3. Random Forest
+4. Gradient Boosting
+
+Model development then progressed through **cross-validation, hyperparameter tuning, classification threshold optimization, final model evaluation, and model interpretation**.
+
 Business Problem
         │
         ▼
@@ -131,18 +148,6 @@ Customer Churn Risk Segmentation
         │
         ▼
 Business Insights & Retention Recommendations
-
-
-### What about Streamlit?
-
-I deliberately left **Prediction App (Streamlit)** out of the completed workflow because we haven't built it yet.
-
-Later in the README we'll add:
-
-```markdown
-## 🚀 Future Enhancements
-
-- Build an interactive Streamlit churn prediction application.
 
 ## 🔍 Exploratory Data Analysis
 
