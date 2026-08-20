@@ -128,6 +128,7 @@ Customer Churn Risk Segmentation
         │
         ▼
 Business Insights & Retention Recommendations
+```
 
 ### Modeling Approach
 
@@ -143,47 +144,6 @@ Four classification algorithms were evaluated:
 4. Gradient Boosting
 
 Model development then progressed through **cross-validation, hyperparameter tuning, classification threshold optimization, final model evaluation, and model interpretation**.
-
-Business Problem
-        │
-        ▼
-Data Collection
-        │
-        ▼
-Data Cleaning & Preparation
-        │
-        ▼
-Exploratory Data Analysis
-        │
-        ▼
-Feature Engineering & Preprocessing
-        │
-        ▼
-Train/Test Split
-        │
-        ▼
-Baseline Model Training
-        │
-        ▼
-Baseline Model Evaluation
-        │
-        ▼
-Cross-Validation & Hyperparameter Tuning
-        │
-        ▼
-Classification Threshold Optimization
-        │
-        ▼
-Final Model Selection
-        │
-        ▼
-Model Interpretation & Feature Importance
-        │
-        ▼
-Customer Churn Risk Segmentation
-        │
-        ▼
-Business Insights & Retention Recommendations
 
 ## 🔍 Exploratory Data Analysis
 
