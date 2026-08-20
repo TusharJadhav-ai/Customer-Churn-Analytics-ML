@@ -446,6 +446,7 @@ The project is organized as a sequential analytical workflow, with separate note
 | Model Interpretation | Feature Importance, Churn Driver Analysis |
 | Development | VS Code, Jupyter Notebook |
 | Version Control | Git, GitHub |
+| App/Development | Streamlit |
 
 ### Machine Learning Algorithms
 
@@ -494,14 +495,24 @@ Run the notebooks sequentially:
 ## 🚀 Future Enhancements
 
 Potential extensions to the project include:
-
-- Build an interactive **Streamlit churn prediction application**.
-- Allow users to enter customer characteristics and receive predicted churn probability and risk segment.
 - Incorporate **customer lifetime value (CLV)** to prioritize high-value customers at risk of churn.
 - Introduce retention intervention costs to optimize decisions based on expected financial impact.
 - Evaluate probability calibration and additional model-interpretation techniques such as SHAP.
 - Validate retention strategies through controlled experiments or A/B testing.
 - Develop monitoring for model performance and customer churn patterns over time.
+
+## 🖥️ Streamlit Prediction App
+
+An interactive Streamlit application was developed to operationalize the final churn model.
+
+The app allows users to enter customer profile, service, contract, and billing information and returns:
+
+- Predicted churn probability
+- Churn risk segment
+- Churn / stay classification using the selected 0.30 threshold
+- Recommended retention action
+
+The application uses the same fitted preprocessing pipeline and Tuned Gradient Boosting model developed in the machine learning notebook.
 
 ---
 
