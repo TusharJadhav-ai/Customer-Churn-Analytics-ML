@@ -324,7 +324,7 @@ After selecting the final Tuned Gradient Boosting model, feature importance was 
 
 ![Actual Churn Rate by Predicted Risk Segment](./images/churn_risk_segments.png)
 
-Month-to-month contract status was by far the most influential feature in the final Gradient Boosting model.
+Observed churn increases consistently across the risk segments, from 7.96% among Low Risk customers to 74.01% among Very High Risk customers
 
 ### Connecting Model Interpretation with EDA
 
