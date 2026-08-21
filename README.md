@@ -320,9 +320,9 @@ After selecting the final Tuned Gradient Boosting model, feature importance was 
 | 7 | Electronic Check | **4.69%** |
 | 8 | No Tech Support | **4.08%** |
 
-### Feature Importance Visualization
+### Churn Rate by Predicted Risk Segment
 
-![Top 15 Features Driving Customer Churn Predictions](./images/churn_feature_importance.png)
+![Actual Churn Rate by Predicted Risk Segment](./images/churn_risk_segments.png)
 
 Month-to-month contract status was by far the most influential feature in the final Gradient Boosting model.
 
@@ -355,9 +355,9 @@ The final model's predicted probabilities were converted into four operational r
 | High Risk | 349 | 154 | 44.56% | **44.13%** |
 | Very High Risk | 177 | 131 | 72.47% | **74.01%** |
 
-### Churn Rate by Predicted Risk Segment
+### Feature Importance Visualization
 
-![Actual Churn Rate by Predicted Risk Segment](./images/churn_risk_segments.png)
+![Top 15 Features Driving Customer Churn Predictions](./images/churn_feature_importance.png)
 
 Observed churn increases consistently across the risk segments, from only **7.96% among Low Risk customers to 74.01% among Very High Risk customers**.
 
