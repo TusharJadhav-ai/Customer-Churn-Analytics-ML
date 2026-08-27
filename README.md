@@ -193,7 +193,7 @@ Because the objective is to identify customers at risk of churn, model evaluatio
 
 | Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
 |---|---:|---:|---:|---:|---:|
-| Logistic Regression | **80.34%** | 65.20% | **55.61%** | **60.03%** | 84.28% |
+| Logistic Regression | **80.62%** | 65.83% | **56.15%** | **60.61%** | 84.23% |
 | Decision Tree | 72.25% | 47.81% | 49.73% | 48.75% | 65.04% |
 | Random Forest | 78.85% | 63.01% | 49.20% | 55.26% | 81.66% |
 | Gradient Boosting | 80.27% | **66.55%** | 51.60% | 58.13% | **84.33%** |
@@ -303,7 +303,7 @@ This means the final operating strategy identifies **92 additional churners** an
 
 The final model therefore prioritizes **churn detection and retention opportunity** rather than maximizing Accuracy alone.
 
-## 🔎 Model Interpretation & Key Churn Drivers
+## 🔎 Model Interpretation & Key Churn Predictors
 
 After selecting the final Tuned Gradient Boosting model, feature importance was analyzed to understand which variables contributed most strongly to churn predictions.
 
@@ -324,7 +324,7 @@ After selecting the final Tuned Gradient Boosting model, feature importance was 
 
 ![Actual Churn Rate by Predicted Risk Segment](./images/churn_risk_segments.png)
 
-Observed churn increases consistently across the risk segments, from 7.96% among Low Risk customers to 74.01% among Very High Risk customers
+Observed churn increases consistently across the risk segments, from 7.96% among Low Risk customers to 74.01% among Very High Risk customers.
 
 ### Connecting Model Interpretation with EDA
 
