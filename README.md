@@ -446,7 +446,7 @@ The project is organized as a sequential analytical workflow, with separate note
 | Model Interpretation | Feature Importance, Churn Driver Analysis |
 | Development | VS Code, Jupyter Notebook |
 | Version Control | Git, GitHub |
-| App/Development | Streamlit |
+| Application Development | Streamlit |
 
 ### Machine Learning Algorithms
 
